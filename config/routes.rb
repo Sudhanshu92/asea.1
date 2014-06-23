@@ -1,4 +1,5 @@
 Asea::Application.routes.draw do
+  get "landings/index"
   resources :hospitals
 
   resources :listings do
