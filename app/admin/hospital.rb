@@ -1,4 +1,5 @@
 ActiveAdmin.register Hospital do
+  permit_params 
 
   
   # See permitted parameters documentation:
